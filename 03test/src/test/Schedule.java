@@ -12,6 +12,7 @@ public class Schedule {
 		if(m == 9 && d >= 27){a = yotei[1];}
 		if(m == 10 && d <= 8) {a = yotei[2];}
 		if(m == 10 && d > 8) {a = yotei[3];}
+		if(m == 11) {a = yotei[5];} //ダミーで作成
 
 		return a;
 	}

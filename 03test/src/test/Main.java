@@ -34,7 +34,7 @@ public class Main {
 		my.MyFrame("本日は" + cal.m + "月" + cal.d + "日" + cal.yb + "曜日");
 		my.setVisible(true);
 		my.append("\n今日の授業は、" + sc.ans(cal.m, cal.d));
-		my.append("\n\n本日の予定\n");
+		my.append("\n\n本日のメモ\n");
 
 		//BufferedReader b_reader = new BufferedReader(new InputStreamReader(new FileInputStream(ch),"Shift-JIS"));
 
@@ -44,7 +44,7 @@ public class Main {
 		}
 		fr.close();
 
-		my.append("\n追加の予定を入力\n");
+		my.append("\n追加のメモを入力\n");
 		String nyr = new java.util.Scanner(System.in).nextLine();
 		my.append(nyr);
 		pr.println(nyr);
